@@ -1,4 +1,3 @@
-# Php Practic
 # PHP Variables, If-Else, and Switch Statement
 
 ## 1. PHP Variables
@@ -7,7 +6,7 @@ A variable is a container used to store data, such as a name, age, or number.
 
 ### Example
 
-php
+```php
 <?php
 $name = "Ali";
 $age = 20;
@@ -18,13 +17,14 @@ echo $name;
 echo "<br>";
 echo $age;
 ?>
+```
 
 ### Explanation of Variables
 
-* `$name: Stores a person's name.
-* `$age: Stores a person's age.
-* `$price: Stores a price or decimal number.
-* `$isStudent: Stores a true or false value.
+* `$name`: Stores a person's name.
+* `$age`: Stores a person's age.
+* `$price`: Stores a price or decimal number.
+* `$isStudent`: Stores a true or false value.
 
 ### Important Rules
 
@@ -36,17 +36,18 @@ echo $age;
 
 ### Output
 
-text
+```text
 Ali
 20
+```
 
-
-2. If, Elseif, and Else
+## 2. If, Elseif, and Else
 
 These statements are used to make decisions based on conditions.
-Example
 
-php
+### Example
+
+```php
 <?php
 $a = 20;
 $b = 10;
@@ -59,7 +60,7 @@ if ($a > $b) {
     echo "$a is equal to $b";
 }
 ?>
-
+```
 
 ### Explanation
 
@@ -69,9 +70,10 @@ if ($a > $b) {
 * `<br>`: Moves the output to a new line.
 
 ### Output
-text
-20 is greater than 10
 
+```text
+20 is greater than 10
+```
 
 ## 3. Switch Statement
 
@@ -79,7 +81,7 @@ A switch statement is used to select one option from multiple cases.
 
 ### Example
 
-php
+```php
 <?php
 $day = 3;
 
@@ -104,16 +106,17 @@ switch ($day) {
         echo "Invalid day";
 }
 ?>
+```
 
 ### Explanation
 
-* `switch: Checks the value of a variable.
-* `case: Defines a possible value.
-* `break: Stops the switch after a matching case.
-* `default: Runs when no case matches.
+* `switch`: Checks the value of a variable.
+* `case`: Defines a possible value.
+* `break`: Stops the switch after a matching case.
+* `default`: Runs when no case matches.
 
 ### Output
 
-text
+```text
 Wednesday
 ```
